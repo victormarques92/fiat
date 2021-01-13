@@ -1,0 +1,35 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="177.82200622558594 32.66200256347656 1802.615966796875 1063.4200439453125">
+	<g>
+		<g transform="translate(177.822 33.777)">
+			<g transform="translate(1111.33 558.721)">
+				<g transform="translate(0 0)">
+					<path d="M238.739,0,75.514,503.584H0L163.187,0Z" fill="#ff8094"/>
+					<g transform="translate(151.218)">
+						<path d="M635.4,0,472.213,503.584H396.7L559.887,0Z" transform="translate(-396.7)" fill="#ff8094"/>
+					</g>
+					<g transform="translate(301.369)">
+						<path d="M1029.3,0,866.113,503.584H790.6L953.789,0Z" transform="translate(-790.6)" fill="#ff8094"/>
+					</g>
+					<g transform="translate(452.548)">
+						<path d="M1425.938,0,1262.714,503.584H1187.2L1350.387,0Z" transform="translate(-1187.2)" fill="#ff8094"/>
+					</g>
+				</g>
+			</g>
+			<g transform="translate(0)">
+				<path d="M238.739,0,75.514,503.584H0L163.187,0Z" fill="#ff8094"/>
+				<g transform="translate(151.218)">
+					<path d="M635.4,0,472.213,503.584H396.7L559.887,0Z" transform="translate(-396.7)" fill="#ff8094"/>
+				</g>
+				<g transform="translate(301.369)">
+					<path d="M1029.3,0,866.113,503.584H790.6L953.789,0Z" transform="translate(-790.6)" fill="#ff8094"/>
+				</g>
+				<g transform="translate(452.548)">
+					<path d="M1425.938,0,1262.714,503.584H1187.2L1350.387,0Z" transform="translate(-1187.2)" fill="#ff8094"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
