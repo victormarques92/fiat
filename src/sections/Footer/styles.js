@@ -5,24 +5,24 @@ import Colors from '../../styles/colors';
 export const Container = styled.section`
   display: block;
   margin: 0 auto;
-  padding: 44px calc(((100% - 1140px) / 2) + 100px) 16px;
+  padding: 2.75rem calc(((100% - 71.25rem) / 2) + 6.25rem) 1rem;
 `;
 
 export const Social = styled.div`
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 `;
 
 export const SocialItem = styled.a`
   align-items: center;
   color: ${Colors.white};
   display: inline-flex;
-  font-size: 24px;
-  height: 45px;
+  font-size: 1.5rem;
+  height: 2.813rem;
   justify-content: center;
   transition: 0.3s ease-in-out;
-  width: 50px;
+  width: 3.125rem;
 
   &:hover {
     ${switchProp('title', {
@@ -44,7 +44,7 @@ export const SocialItem = styled.a`
 
 export const Text = styled.p`
   color: ${Colors.white};
-  font-size: 15px;
-  line-height: 16px;
+  font-size: 0.9375rem;
+  line-height: 1rem;
   text-align: center;
 `;

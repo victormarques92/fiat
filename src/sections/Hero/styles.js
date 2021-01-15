@@ -15,10 +15,10 @@ export const Container = styled.section`
     background-size: 100%;
     content: '';
     display: block;
-    height: calc(100% - 80px);
+    height: calc(100% - 5rem);
     left: 0;
     position: absolute;
-    top: 80px;
+    top: 5rem;
     width: 100%;
     z-index: 0;
   }
@@ -27,15 +27,15 @@ export const Container = styled.section`
 export const Brand = styled.div`
   display: flex;
   justify-content: flex-end;
-  padding: 80px 16px 32px;
+  padding: 5rem 1rem 2rem;
 `;
 
 const bounce = keyframes`
   from {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   to {
-    transform: translateY(8px);
+    transform: translateY(0.5rem);
   }
 `;
 
@@ -44,7 +44,7 @@ export const NextSection = styled.a`
   animation: ${bounce} 1s linear infinite;
   color: white;
   display: flex;
-  font-size: 40px;
+  font-size: 2.5rem;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 1rem;
 `;

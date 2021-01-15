@@ -37,9 +37,9 @@ const slideUp = keyframes`
 export const Content = styled.div`
   animation: ${slideUp} 0.3s linear;
   background-color: ${Colors.primary};
-  padding: 40px;
+  padding: 2.5rem;
   position: relative;
-  width: 950px;
+  width: 59.38rem;
   z-index: 1;
 
   button {
@@ -47,13 +47,13 @@ export const Content = styled.div`
     background-color: ${Colors.secondary};
     color: ${Colors.white};
     display: flex;
-    font-size: 32px;
-    height: 50px;
+    font-size: 2rem;
+    height: 3.125rem;
     justify-content: center;
     position: absolute;
-    right: -25px;
-    top: 40px;
-    width: 50px;
+    right: -1.563rem;
+    top: 2.5rem;
+    width: 3.125rem;
 
     svg {
       transition: 0.15s ease-in-out;
@@ -69,32 +69,32 @@ export const Content = styled.div`
   img {
     display: block;
     margin: 0 auto;
-    max-width: calc(100% - 160px);
+    max-width: calc(100% - 10rem);
   }
 
   div {
     background-color: ${Colors.white};
-    margin-top: -155px;
-    padding: 175px 80px 40px;
+    margin-top: -9.688rem;
+    padding: 10.94rem 5rem 2.5rem;
 
     h3 {
       color: ${Colors.greyMedium};
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 700;
-      line-height: 20px;
-      margin-bottom: 20px;
+      line-height: 1.25rem;
+      margin-bottom: 1.25rem;
     }
 
     p,
     span {
       color: ${Colors.greyMedium};
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 500;
-      line-height: 18px;
+      line-height: 1.125rem;
     }
 
     span {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 `;

@@ -5,14 +5,14 @@ export const CallToAction = styled.div`
   align-items: center;
   background-color: ${Colors.primary};
   display: flex;
-  height: 120px;
+  height: 7.5rem;
   justify-content: center;
 
   span {
     color: ${Colors.white};
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    margin-right: 16px;
+    margin-right: 1rem;
   }
 
   a {
@@ -20,15 +20,15 @@ export const CallToAction = styled.div`
     background-color: ${Colors.secondary};
     color: ${Colors.white};
     display: flex;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
-    height: 40px;
+    height: 2.5rem;
     justify-content: center;
-    padding: 12px;
+    padding: 0.75rem;
     text-transform: uppercase;
 
     & + a {
-      margin-left: 2px;
+      margin-left: 0.125rem;
     }
   }
 `;

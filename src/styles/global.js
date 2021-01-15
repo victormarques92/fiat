@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
   section {
     display: block;
     margin: 0 auto;
-    padding: 0 calc(((100% - 1140px) /2) + 100px);
+    padding: 0 calc(((100% - 71.25rem) /2) + 6.25rem);
   }
 `;
 

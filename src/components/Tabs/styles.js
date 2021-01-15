@@ -14,15 +14,15 @@ export const Details = styled.div`
 
   h3 {
     ${Colors.grey};
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 20px;
-    margin-bottom: 24px;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 
   ul {
     list-style: disc;
-    padding-left: 20px;
+    padding-left: 1.25rem;
   }
 `;
 
@@ -31,7 +31,7 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 92px;
+  top: 5.75rem;
   width: 100%;
 `;
 
@@ -44,36 +44,36 @@ export const Controller = styled.div`
 export const Item = styled.div`
   align-items: center;
   background-color: ${Colors.white};
-  border-left: 4px solid ${Colors.primary};
-  border-radius: 0 0 20px 0;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  border-left: 0.25rem solid ${Colors.primary};
+  border-radius: 0 0 1.25rem 0;
+  box-shadow: 0 0.1875rem 0.375rem 0 rgba(0, 0, 0, 0.1);
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 80px;
+  height: 5rem;
   justify-content: space-between;
   position: relative;
-  width: 112px;
+  width: 7rem;
 
   ${props =>
     props.isActive &&
     css`
       &::before {
         content: '';
-        border-top: 6px solid transparent;
-        border-bottom: 6px solid transparent;
-        border-right: 6px solid ${Colors.primary};
+        border-top: 0.375rem solid transparent;
+        border-bottom: 0.375rem solid transparent;
+        border-right: 0.375rem solid ${Colors.primary};
         height: 0;
-        left: -10px;
+        left: -0.625rem;
         position: absolute;
-        top: calc(50% - 3px);
+        top: calc(50% - 0.1875rem);
         width: 0;
       }
     `}
 
   div {
-    height: calc(100% - 14px);
-    padding: 8px;
+    height: calc(100% - 0.875rem);
+    padding: 0.5rem;
     transition: 0.15s ease-in-out;
 
     img {
@@ -83,9 +83,9 @@ export const Item = styled.div`
 
   span {
     color: ${Colors.greyMedium};
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 700;
-    line-height: 14px;
+    line-height: 0.875rem;
   }
 
   &:hover {
@@ -103,6 +103,6 @@ export const Item = styled.div`
     `}
 
   & + div {
-    margin-top: 12px;
+    margin-top: 0.75rem;
   }
 `;
