@@ -1,8 +1,8 @@
 import React, { useCallback, useState } from 'react';
 import { FiChevronDown } from 'react-icons/fi';
 import Midia from '../../components/Midia';
-import { Col, Row } from '../../styles/grid';
 import Modal from '../../components/Modal';
+import { Col, Row } from '../../styles/grid';
 import { Brand, Container, NextSection } from './styles';
 
 import logo from '../../assets/images/main-car-brand.svg';
@@ -110,7 +110,7 @@ const Hero = ({ nextSection }) => {
             {api?.map(
               (item, index) =>
                 index !== 0 && (
-                  <Col xl={6} mb={20}>
+                  <Col xl={6} mb={20} key={index}>
                     <Midia
                       image={item.hero.figure}
                       title={item.hero.title}

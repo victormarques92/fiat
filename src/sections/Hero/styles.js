@@ -1,9 +1,27 @@
 import styled, { keyframes } from 'styled-components';
+import Colors from '../../styles/colors';
+import MainBG from '../../assets/images/main-bg.svg';
 
-export const Container = styled.div`
-  background-color: #3b369e;
+export const Container = styled.section`
+  background-color: ${Colors.primary};
   font-size: 1rem;
-  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+
+  &::before {
+    background-image: url(${MainBG});
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: '';
+    display: block;
+    height: calc(100% - 80px);
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    z-index: 0;
+  }
 `;
 
 export const Brand = styled.div`
@@ -17,7 +35,7 @@ const bounce = keyframes`
     transform: translateY(0px);
   }
   to {
-    transform: translateY(15px);
+    transform: translateY(8px);
   }
 `;
 

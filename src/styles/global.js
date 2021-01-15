@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
   * {
     border: 0;
     box-sizing: border-box;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     outline: none !important;
     padding: 0;
@@ -48,6 +48,12 @@ const GlobalStyle = createGlobalStyle`
 
   button, a {
     cursor: pointer;
+  }
+
+  section {
+    display: block;
+    margin: 0 auto;
+    padding: 0 calc(((100% - 1140px) /2) + 100px);
   }
 `;
 

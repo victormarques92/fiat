@@ -3,7 +3,7 @@ const Colors = {
   danger: '#ff4757',
   grey: '#222222',
   greyMedium: '#707070',
-  light: '#f1f2f6',
+  light: '#edede3',
   primary: '#3B369E',
   secondary: '#FF8094',
   success: '#2ed573',

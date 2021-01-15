@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors';
+import Colors, { Opacity } from '../../styles/colors';
 
 export const Container = styled.div`
   display: flex;
@@ -31,6 +31,7 @@ export const Menu = styled.div`
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
+    z-index: 1;
 
     svg {
       color: ${Colors.white};
@@ -60,13 +61,80 @@ export const Header = styled.a`
   }
 `;
 
-export const ListMenu = styled.ul``;
+export const Scroll = styled.div`
+  height: calc(100vh - 45px);
+  overflow-y: scroll;
+  padding-bottom: 20px;
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: ${Colors.primary};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${Colors.secondary + Opacity.op20};
+  }
+`;
+
+export const ListMenu = styled.ul`
+  margin-bottom: 40px;
+  margin-top: 12px;
+
+  li {
+    a {
+      color: ${Colors.white};
+      cursor: pointer;
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 15px;
+      padding: 12px 16px;
+    }
+
+    ul {
+      li {
+        position: relative;
+        padding-left: 40px;
+
+        &::before {
+          background-color: ${Colors.white};
+          border-radius: 50%;
+          content: '';
+          display: block;
+          height: 4px;
+          width: 4px;
+
+          position: absolute;
+          top: calc(50% - 2px);
+        }
+      }
+    }
+  }
+`;
+
+export const Button = styled.a`
+  align-items: center;
+  background-color: ${Colors.secondary};
+  color: ${Colors.white};
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  height: 44px;
+  margin: 0 16px;
+  justify-content: center;
+
+  & + a {
+    margin-top: 12px;
+  }
+`;
 
 export const Content = styled.div`
   flex: 1;
   height: 100vh;
   overflow-y: auto;
-  padding: 0 100px;
   transition: 0.4s ease-in-out;
   width: 100%;
 `;
